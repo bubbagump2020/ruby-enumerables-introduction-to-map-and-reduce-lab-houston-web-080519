@@ -24,10 +24,7 @@ def reduce_to_total(source_array, starting_point = nil)
 end
 
 def reduce_to_all_true(source_array)
-  if !!source_array.reduce()
-    return true
-  else
-    return false
+
 end
 
 def reduce_to_any_true(source_array)
